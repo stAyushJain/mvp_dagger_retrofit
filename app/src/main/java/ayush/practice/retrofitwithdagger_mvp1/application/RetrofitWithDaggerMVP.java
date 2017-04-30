@@ -19,7 +19,7 @@ public class RetrofitWithDaggerMVP extends Application {
         super.onCreate();
         mNetworkingComponent = DaggerNetworkingComponent.builder()
                 .appModule(new AppModule(this))
-                .networkingModule(new NetworkingModule("https://www.stafftimes.com/"))
+                .networkingModule(new NetworkingModule("YOUR_BASE_URL"))
                 .build();
 
     }

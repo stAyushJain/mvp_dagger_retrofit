@@ -43,10 +43,10 @@ protected void onCreate(Bundle savedInstanceState) {
 
         //Call the method in MainPresenter to make Network Request
         Map<String, String> params = new HashMap<String, String>();
-        params.put("email","ayush@codewave.in");
-        params.put("token","70666");
+        params.put("mail","a@a.in");
+        params.put("ken","70666");
 
-        mainPresenter.loadPost("app/tokenVerification",params);
+        mainPresenter.loadPost("YOUR_SUBURL",params);
         }
 
 @Override
